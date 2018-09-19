@@ -8,13 +8,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         
-
-        <title>PwC</title>
+        
+        <title>PwC1</title>
     </head>
 
     <body>
 
-        
+             
+            <img src="thumb_0.jpg" alt="PwC" width="150" height="100">
 <!--------------------------------------------------------------------------->
             <div class="row">
 
@@ -24,14 +25,14 @@
 
             <div class="col-lg-2 col-md-6 col-sm-12"> 
 
-            <section>
+            <section id="allColumns">
             <h2>All Columns</h2>
             <div id="buttons">
             <button id=selectAll class="btn btn-danger">Select all</button>
             </div> 
             
-             <ul>
-                  <li>Ship from</a></li>
+             <ul id="ulList1">
+                  <li>Ship from</li>
                   <li>IncoT</li>
                   <li>taxCode</li>
                   <li>UIDCty</li>
@@ -42,16 +43,19 @@
        
 
             </section>
-            </div> <!--cols-->
+            </div>
+         <!--cols-->
+
 <!--------------------------------------------------------------------------->
 
-            <div class="col-lg-2 col-md-1 col-sm-1">
+              <div class="col-lg-2 col-md-1 col-sm-1">
                     <p>
                     <div id="toTheRightButton1">
                         <button class= "btn btn-danger">
                         <span class="fas fa-angle-double-right"></span>
                         </button>
                         </div>
+                        
                         <div id="toTheleftButton1">
                             <button class= "btn btn-danger">
                             <span class="fas fa-angle-double-left"></span>
@@ -59,18 +63,22 @@
                             </div>
                         </p>
                 </div>
+         
 <!--------------------------------------------------------------------------->
            
             <div class="col-lg-2 col-md-6 col-sm-12">
-            <section>
+            <section id ="inputColumns">
             <h2>Input Columns</h2>
             <div id="buttons">
-            <button id="deselectall" class="btn btn-danger">Deselect all</button>
-            </div>                     
+            <button id="deselectAll" class="btn btn-danger">Select all</button>
+            </div> 
+            <ul id="ulList2"></ul>                    
             <div id="InputColumns">     
             </div>
             </section>
-            </div> <!--cols-->
+            </div> 
+            
+            <!--cols-->
 <!--------------------------------------------------------------------------->
 
             <div class="col-lg-2 col-md-12 col-sm-12">
@@ -90,11 +98,12 @@
 <!--------------------------------------------------------------------------->
             
             <div class="col-lg-2 col-md-6 col-sm-12">
-            <section>
-            <h2 class="TargetColumns">Target Columns</h2>
+            <section id="targetColumns2">
+            <h2 class="targetColumns">Target Columns</h2>
             <div id="buttons">
-            <button id="targetdeselectall"  class="btn btn-danger">Deselect all</button>
+            <button id="targetDeselectAll"  class="btn btn-danger">Select all</button>
             </div>
+            <ul id="ulList3"></ul>
             <div id="TargetColumns">       
             </div>
             </section>
