@@ -1,0 +1,158 @@
+img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+body {
+   
+   background-image: url(1200px-2014-09-29_-_Reichsbrücke-Donau_City-Sunken_City.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: 300px;
+   
+}
+
+responsive {
+    width: 100%;
+    height: auto;
+}
+.row {
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+
+
+
+section {
+	border:	3px solid rgb(255, 255, 255);
+	width: 400px;
+	height: 450px;
+	font-family: Helvetica;
+	color: white;
+    max-width: 400px; 
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    
+   
+}
+
+h2{
+    color: rgb(221, 118, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left:  auto;
+    margin-top: -30px;
+    margin-right: 340px;
+    width: 150px;
+    max-width: 400px;
+    
+    
+  
+    
+}
+#buttons {
+    position: relative;
+    margin-top: -52px;
+    margin-left: auto;
+    margin-right: 7px;
+    width: 100px;
+    max-width: 400px;
+    
+    
+    
+   
+}
+
+
+img {
+    max-width: 100%;
+    
+}
+
+#toTheRightButton1 {
+   text-align: center;
+   margin-top: 150px;
+
+}
+#toTheleftButton1 {
+    text-align: center;
+    margin-top: 50px;
+ 
+ }
+ #toTheleftButton2 {
+    text-align: center;
+    margin-top: 50px;
+ 
+ }
+ #toTheRightButton2 {
+    text-align: center;
+    margin-top: 150px;
+ 
+ }
+
+ h3 {
+     height:50px;
+     margin-top: 20px;
+ }
+
+ #submitButton{
+   float: right;
+ }   
+
+ul li:hover{
+    background-color: #AD1B02;
+    margin-right: 0px;
+ 
+
+}
+.active{
+    background-color: #AD1B02;
+    margin-right: 0px;
+}
+
+li {
+
+    list-style: none;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    margin-top: 13px;
+    padding-left: 10px;
+    
+}
+ul {
+    margin-top: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+/**
+/********** Medium devices only **********
+@media (min-width: 992px) and (max-width: 1199px){
+
+    #toTheLeftButton  {
+        text-align: center;
+    }
+
+}
+
+/********** Small devices only **********
+@media (min-width: 768px) and (max-width: 991px){
+
+    #toTheLeftButton  {
+        text-align: center;
+    }
+}
+
+/********** Extra small devices only **********
+@media (max-width: 767px){
+
+
+}******/
+
+
+
+
+
+
